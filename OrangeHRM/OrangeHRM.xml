@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeDemo">
+
+<test name="Bothvalid">
+<parameter name="username" value="Ramu"></parameter>
+<parameter name="password" value="me@123"></parameter>
+<classes>
+<class name="testcases.BothValid"></class>
+</classes>
+</test>
+
+
+<test name="BothInvalid">
+<parameter name="username" value="ramu"></parameter>
+<parameter name="password" value="Me@123"></parameter>
+<classes>
+<class name="testcases.BothInvalid"></class>
+</classes>
+</test>
+
+<test name="InvalidUserName">
+<parameter name="username" value="ramu"></parameter>
+<parameter name="password" value="me@123"></parameter>
+<classes>
+<class name="testcases.InvalidUserName"></class>
+</classes>
+</test>
+
+<test name="Invalidpassword">
+<parameter name="username" value="Ramu"></parameter>
+<parameter name="password" value="me@13"></parameter>
+<classes>
+<class name="testcases.InvalidPassword"></class>
+</classes>
+</test>
+</suite>

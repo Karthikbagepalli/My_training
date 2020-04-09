@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74978" started-at="2020-04-02T14:12:30 IST" finished-at="2020-04-02T14:13:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74978" started-at="2020-04-02T14:12:30 IST" finished-at="2020-04-02T14:13:45 IST">
+      <class name="testcases.UsingDataProvider">
+        <test-method status="PASS" signature="main(java.lang.String, java.lang.String)[pri:0, instance:testcases.UsingDataProvider@66480dd7]" name="main" duration-ms="29713" started-at="2020-04-02T14:12:31 IST" data-provider="loginData" finished-at="2020-04-02T14:13:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main(java.lang.String, java.lang.String)[pri:0, instance:testcases.UsingDataProvider@66480dd7]" name="main" duration-ms="17245" started-at="2020-04-02T14:13:00 IST" data-provider="loginData" finished-at="2020-04-02T14:13:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main(java.lang.String, java.lang.String)[pri:0, instance:testcases.UsingDataProvider@66480dd7]" name="main" duration-ms="13137" started-at="2020-04-02T14:13:18 IST" data-provider="loginData" finished-at="2020-04-02T14:13:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main(java.lang.String, java.lang.String)[pri:0, instance:testcases.UsingDataProvider@66480dd7]" name="main" duration-ms="14659" started-at="2020-04-02T14:13:31 IST" data-provider="loginData" finished-at="2020-04-02T14:13:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- testcases.UsingDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
